@@ -1,0 +1,14 @@
+{
+  "name": "instant-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Describe your idea. Get a live landing page in 60 seconds.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
