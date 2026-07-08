@@ -1,0 +1,16 @@
+services:
+  landing-page-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:?Set ANTHROPIC_API_KEY in .env}
+      ANTHROPIC_MODEL: ${ANTHROPIC_MODEL:-claude-sonnet-5}
+    volumes:
+      - landing-page-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  landing-page-data:
