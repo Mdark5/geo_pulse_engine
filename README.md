@@ -23,3 +23,7 @@ Open http://localhost:3000, type a description, click **Generate**, then **Publi
 ## Metric that matters right now
 
 Number of users who generated **and** published a landing page. Nothing else is in scope until that number tells us something.
+
+## Other components in this repo
+
+- `market-ingestion/` — a standalone real-time ingestion service that streams Bitget futures market data into the `supabase/migrations/` schema. Unrelated to the landing-page generator above; see `market-ingestion/README.md`.
