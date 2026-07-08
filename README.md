@@ -1,4 +1,4 @@
-# Landing Page Generator
+ # Landing Page Generator
 
 Describe your product in a sentence, get an AI-generated landing page, publish it to a shareable URL. Built as a scrappy MVP to test demand before investing in anything else.
 
